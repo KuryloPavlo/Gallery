@@ -2,14 +2,12 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   image: {
-    width: 160,
+    width: 170,
     height: 170,
     marginHorizontal: 10,
     marginVertical: 10,
-    borderRadius: 20,
   },
   container: {
-    borderRadius: 20,
     marginVertical: 15,
     marginHorizontal: 5,
     flex: 1,
@@ -20,11 +18,15 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   titleText: {
-    fontSize: 15,
+    fontSize: 14,
+    lineHeight: 17,
+    color: '#3D3D3D',
   },
   nameText: {
-    fontSize: 12,
-    opacity: 0.3,
+    fontSize: 16,
+    lineHeight: 20,
+    fontWeight: '700',
+    color: '#3D3D3D',
   },
 });
 
