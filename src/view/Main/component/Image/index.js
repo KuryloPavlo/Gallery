@@ -17,8 +17,8 @@ class ImageView extends React.PureComponent {
           }}
         />
         <View style={styles.textContainer}>
-          <Text style={styles.titleText}>{picture.title}</Text>
           <Text style={styles.nameText}>{picture.username}</Text>
+          <Text style={styles.titleText}>{picture.title}</Text>
         </View>
       </TouchableOpacity>
     );
