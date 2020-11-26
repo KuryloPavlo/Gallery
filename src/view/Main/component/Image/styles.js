@@ -2,12 +2,14 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   image: {
-    width: 170,
-    height: 170,
-    marginHorizontal: 10,
-    marginVertical: 10,
+    width: 186,
+    height: 180,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
   },
   container: {
+    borderWidth: 0.4,
+    borderRadius: 15,
     marginVertical: 15,
     marginHorizontal: 5,
     flex: 1,
